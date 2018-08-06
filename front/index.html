@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+
+<div ng-app="" ng-init="firstname='firstname'" data-ng-init="secondname='secondname'">
+
+
+    <p>Quanty: <input type="text" ng-model="quanty"></p>
+    <p>Cost: <input type="text" ng-model="cost" id=""></p>
+    <!--p ng-bind="name"> </p>
+    <p>You wrote: {{ name }}</p>
+    <p> That name was initialized with te angular aplication <span ng-bind="firstname"></span></p>
+    <p> alternative to ng-init is data-ng-init <span data-ng-bind="secondname"></span></p-->
+        <p>Total {{quanty * cost}}</p>
+</div>
+
+</body>
+</html>
